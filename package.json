@@ -1,0 +1,19 @@
+{
+  "name": "qa-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "getUsers.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node getUsers.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
