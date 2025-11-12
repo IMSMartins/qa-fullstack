@@ -1,11 +1,9 @@
-import { somar } from "../exercicios/exercicio1.js";
+const soma = require("../exercicios/exercicio1");
 
-describe("Exercício 1", () => {
-  test("deve somar dois números corretamente", () => {
-    expect(somar(2, 3)).toBe(5);
-  });
+test("soma 5 + 7 = 12", () => {
+  expect(soma(5, 7)).toBe(12);
+});
 
-  test("deve funcionar com números negativos", () => {
-    expect(somar(-1, -5)).toBe(-6);
-  });
+test("soma números negativos", () => {
+  expect(soma(-3, -4)).toBe(-7);
 });

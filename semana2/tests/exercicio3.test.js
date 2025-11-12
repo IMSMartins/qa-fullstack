@@ -1,6 +1,8 @@
-import { maior } from "../exercicios/exercicio3.js";
+const listarNomes = require("../exercicios/exercicio3");
 
-test("Deve retornar o maior número", () => {
-  expect(maior(10, 5)).toBe(10);
-  expect(maior(3, 9)).toBe(9);
+test("lista nomes com índice", () => {
+  const resultado = listarNomes();
+  expect(resultado[0]).toBe("1 - Igor");
+  expect(resultado[1]).toBe("2 - Maria");
+  expect(resultado.length).toBe(5);
 });

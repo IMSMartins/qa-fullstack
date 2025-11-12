@@ -1,18 +1,12 @@
-// Exercicio 2 - Consumir API e exibir dados do usuario
-
 async function getUser() {
-  try {
-    const response = await fetch("https://reqres.in/api/users/2");
-    const data = await response.json();
-
-    const user = data.data;
-
-    console.log("Nome completo:", user.first_name, user.last_name);
-    console.log("Email:", user.email);
-    console.log("Avatar:", user.avatar);
-  } catch (error) {
-    console.error("Erro na requisicao:", error.message);
-  }
+  const response = await fetch("https://reqres.in/api/users/2");
+  const data = await response.json();
+  const user = data.data;
+  return {
+    nomeCompleto: `${user.first_name} ${user.last_name}`,
+    email: user.email,
+    avatar: user.avatar
+  };
 }
 
-getUser();
+module.exports = getUser;

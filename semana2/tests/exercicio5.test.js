@@ -1,5 +1,12 @@
-import { filtrarPares } from "../exercicios/exercicio5.js";
+const acessarApiInvalida = require("../exercicios/exercicio5");
 
-test("Deve filtrar números pares", () => {
-  expect(filtrarPares([1, 2, 3, 4])).toEqual([2, 4]);
+beforeEach(() => {
+  fetch.resetMocks();
+});
+
+test("captura erro de API inválida", async () => {
+  fetch.mockReject(new Error("Falha na rede"));
+
+  const resultado = await acessarApiInvalida();
+  expect(resultado).toBe("Erro: Falha na rede");
 });

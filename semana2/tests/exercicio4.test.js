@@ -1,6 +1,8 @@
-import { contarElementos } from "../exercicios/exercicio4.js";
+const listarUsuario = require("../exercicios/exercicio4");
 
-test("Deve contar elementos de um array", () => {
-  expect(contarElementos([1, 2, 3])).toBe(3);
-  expect(contarElementos([])).toBe(0);
+test("lista propriedades do usuário", () => {
+  const resultado = listarUsuario();
+  expect(resultado).toContain("nome: Igor Martins");
+  expect(resultado).toContain("idade: 29");
+  expect(resultado).toContain("email: igor@example.com");
 });

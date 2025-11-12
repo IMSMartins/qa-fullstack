@@ -1,19 +1,13 @@
 {
   "name": "qa-fullstack",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "main": "getUsers.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "Projeto de testes de exercícios JS",
+  "main": "index.js",
   "scripts": {
-    "start": "node getUsers.js"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "node-fetch": "^3.3.2"
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-fetch-mock": "^3.0.3"
   }
 }
