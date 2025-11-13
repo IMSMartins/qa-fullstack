@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1763066031071" clover="3.2.0">
+  <project timestamp="1763066031071" name="All files">
+    <metrics statements="19" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="26" coveredelements="24" complexity="0" loc="19" ncloc="19" packages="1" files="5" classes="5"/>
+    <file name="exercicio1.js" path="C:\Users\t3596696\Documents\MatsSports\Igor\QA-Fullstack\semana2\exercicios\exercicio1.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="exercicio2.js" path="C:\Users\t3596696\Documents\MatsSports\Igor\QA-Fullstack\semana2\exercicios\exercicio2.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="exercicio3.js" path="C:\Users\t3596696\Documents\MatsSports\Igor\QA-Fullstack\semana2\exercicios\exercicio3.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="exercicio4.js" path="C:\Users\t3596696\Documents\MatsSports\Igor\QA-Fullstack\semana2\exercicios\exercicio4.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="exercicio5.js" path="C:\Users\t3596696\Documents\MatsSports\Igor\QA-Fullstack\semana2\exercicios\exercicio5.js">
+      <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
